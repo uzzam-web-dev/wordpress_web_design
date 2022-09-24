@@ -1,0 +1,209 @@
+body{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+/*HEADER SECTION*/
+header{
+	padding: 100px 0 0 0;
+	background-color: #fff;
+}
+header .headerText{
+	text-align: center;
+	width: 100vw;
+	padding: 0 0 320px 0;
+}
+header .headerText h1{
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	color: rgb(17,122,201);
+	font-size: 5vw;
+}
+header .headerText p{
+	font-size: 2vw;
+	color: rgb(20, 74, 116);
+}
+header .headerImg img{
+	border-radius: 12px;
+}
+header .headerImages{
+	margin-top: -20%;
+}
+.imgshape{
+	width: 60vw;
+	position: absolute;
+	left: -3%;
+	height: 15px;
+	border-radius: 0 0 15px 15px;
+}
+.headerImg{
+	height: 120vh;
+	background-color: rgb(239,243,247);
+}
+.headerBtn{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.headerEnd h1, span{
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+    color: rgb(4,57,89);
+}
+.headerEnd h1{
+	margin-bottom: -20px;
+}
+.headerEnd span{
+	font-size: 30px;
+}
+.headerEnd span img{
+	margin-left: -30px;
+}
+@media only screen and (max-width: 900px){
+	header .headerText{
+		padding: 0 0 200px 0;
+	}
+	header .headerText h1{
+		font-size: 7vw;
+	}
+	header .headerText p{
+		font-size: 15px;
+	}
+	header .headerImg img{
+		border-radius: 6px;
+	}
+	.headerEnd h1{
+		font-size: 30px;
+	}
+	.headerEnd span{
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 700px){
+	.headerEnd h1{
+		font-size: 25px;
+	}
+}
+
+
+/*GROW SECTION*/
+.grow{
+	background-color: rgb(10,75,120);
+	color: white;
+	padding: 80px 0;
+}
+.grow1 h1{
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	font-size: 70px;
+	opacity: 0.95;
+}
+.grow1 p{
+	font-size: 18px;
+	opacity: 0.9;
+	margin-left: -0px;
+	padding: 30px 0 50px 0;
+}
+.grow3 p{
+	margin-left: -1px;
+}
+.grow4 h5,h2,p{
+	margin-left: 5%;
+	opacity: 0.9;
+}
+.grow5 h5,h2,p{
+	margin-left: 5%;
+	opacity: 0.9;
+}
+.grow8 h5, h3, h6{
+	opacity: 0.9;
+}
+/*Covered Section*/
+.covered h1{
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+}
+/*OFFER SECTION*/
+.offercard2 h5{
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;	
+}
+.offercard2 p{
+	margin-left: 0;
+	font-size: 14px;
+}
+@media only screen and (max-width: 800px){
+.offerG1 h1{
+	font-size: 26px;
+}
+.offerCard1{
+	margin: 30px 0 0 0;
+}
+.offerCard2{
+	margin-top: 30px;
+}
+.offerCard2 .offerButton {
+	font-size: 12px;
+}
+}
+/*FOOTER*/
+
+.footerGrid{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.footerGrid h6{
+	color: #fff;
+	opacity: 0.9;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.footerGrid ul{
+	list-style: none;
+}
+.footerGrid ul li{
+	margin-left: -40px;
+}
+.footerGrid ul li a{
+	color: #fff;
+	opacity: 0.9;
+	font-weight: 100px;
+	font-size: 14px;
+}
+.footerEnd{
+	color: white;
+	opacity: 0.9;
+}
+@media only screen and (max-width: 800px){
+	.footerGrid h6{
+		text-align: center;
+	}
+	.footerGrid ul {
+		text-align: center;
+	}
+}
+/*BUILD SECTION*/
+.build{
+	background-color: rgb(0,126,101);
+	padding: 100px 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+.buildStrt h1{
+	font-size: 70px;
+	font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+	opacity: 0.95;
+}
+.buildStrt p{
+	font-size: 20px;
+	margin-left: 0;
+}
+.build{
+	color: white;
+}
+@media only screen and (max-width: 800px){
+	.absoluteImg{
+		height: 50%;
+	}
+}
+@media (min-width: 799px) and (max-width: 1100px){
+	.absoluteImg{
+		height: 70%;
+	}
+}
